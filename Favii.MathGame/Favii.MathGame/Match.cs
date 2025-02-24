@@ -2,17 +2,16 @@
 {
     public class Match
     {
-        //public bool winOrLose { get; set; }
-        public int num1 { get; set; }
-        public int num2 { get; set; }
-        public int result { get; set; }
-        public string answer { get; set; }
-        public char mode { get; set; }
+        public int Num1 { get; set; }
+        public int Num2 { get; set; }
+        public int Result { get; set; }
+        public string Answer { get; set; }
+        public char Mode { get; set; }
         
 
         public void DisplayGame()
         {
-            string game = $"{num1} {mode} {num2} = {answer} (correct answer: {result})";
+            string game = $"{Num1} {Mode} {Num2} = {Answer} (correct answer: {Result})";
 
             Console.WriteLine(game);
         }
